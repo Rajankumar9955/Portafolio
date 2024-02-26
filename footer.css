@@ -1,0 +1,130 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+    height: 400px;
+    background-color: rgb(28, 21, 21);
+}
+#div1{
+    display: flex;
+    justify-content: space-evenly;
+}
+#Traffic{
+    margin-top: 30px;
+    height: 200px;
+    /* border: 2px solid black; */
+}
+#Traffic #crese{
+    margin-left:-12px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 22.5px;
+}
+#Traffic a{
+    text-decoration: none;
+    margin-top:5px;
+    color: rgb(67, 82, 247);
+}
+#Traffic p{
+    margin-top: 8px;
+}
+
+#connect{
+    margin-top: 30px;
+    height: 200px;
+    /* border: 2px solid black; */
+}
+#connect #with{
+    margin-left:-12px;
+    color: rgb(212, 217, 216);
+    text-decoration: none;
+    font-size: 22.5px;
+}
+#connect a{
+    text-decoration: none;
+    margin-top:5px;
+    color: rgb(90, 76, 236);
+}
+#connect p{
+    margin-top: 8px;
+}
+
+#Close{
+    margin-top: 30px;
+    height: 200px;
+    /* border: 2px solid black; */
+}
+#Close #leads{
+    margin-left:-12px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 22.5px;
+}
+#Close a{
+    text-decoration: none;
+    margin-top:5px;
+    color: rgb(111, 71, 231);
+}
+#Close p{
+    margin-top: 8px;
+}
+
+#support{
+    margin-top: 30px;
+    height: 200px;
+    /* border: 2px solid black; */
+}
+#support #tool{
+    margin-left:-12px;
+    color: bisque;
+    text-decoration: none;
+    font-size: 22.5px;
+}
+#support a{
+    text-decoration: none;
+    margin-top:5px;
+    color: rgb(65, 23, 234);
+}
+#support p{
+    margin-top: 8px;
+}
+
+
+#social-mediia{
+    /* border: 2px solid black; */
+    margin-left: 500px;
+    margin-top: 20px;
+    
+}
+#social-mediia a{
+    padding: 8px;
+    font-size: 25px;
+    color: rgb(31, 159, 159);
+    background-color: white;
+    border-radius: 50%;
+}
+
+#terms{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 40px;
+}
+#MADE{
+    margin-left: 600px;
+    margin-top: 15px;
+}
+#MADE P{
+    color: aquamarine;
+    margin-left: 32px;
+}
+#MADE li{
+  color: azure;
+  list-style-type: none;
+}
+#social-mediia a:hover{
+    background-color: tomato;
+}
+
+

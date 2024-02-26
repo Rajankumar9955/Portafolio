@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#marque{
+    align-items: center;
+}
+.marq { 
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    background-color:black;
+} 
+
+.geek1 { 
+    font-size: 36px; 
+    font-weight: bold; 
+    color: white; 
+    padding-bottom: 10px; 
+} 

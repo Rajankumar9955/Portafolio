@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:580px;
+    width: 100%;
+    color: rgb(29, 25, 25);
+    /* border: 2px solid black; */
+    background-color: rgb(135, 140, 138);
+    
+    
+}
+#list1{
+   align-items: center;
+   margin-top: 10px;
+   /* border: 2px solid black; */
+   height: 500px;
+   width: 33%;
+   
+
+} 
+#list1 p{
+    align-items: center;
+    justify-content: center;
+    margin-left:110px ;
+    margin-top: 15px;
+    font-size: 25px;
+    
+}
+.lang{
+    margin-top: 10px;
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 33%;
+}
+.personal{
+    margin-top: 10px;
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 33%;
+}
+#progress{
+    width: 180px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#progress label{
+    font-size: 20px;
+    margin-left: 50px;
+    color: rgb(37, 72, 72);
+}
+#progress progress{
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.lang p{
+    font-size: 25px;
+    margin-left:150px;
+    margin-top: 15px;
+    color: #000;
+    
+}
+#language{
+    align-items: center;
+    margin-left: 35px;
+    margin-top:35px;
+    /* border: 2px solid black; */
+    height: 500px;
+    width:220px;  
+    height:350px;
+}
+#language label{
+    font-size: 25px;
+    margin-left: 40px;
+}
+#language progress{
+    margin-left: 40px;
+    font-size: 25px;
+}
+.personal{
+    
+}
+.personal p{
+      margin-left:100px;
+      font-size: 25px;
+      margin-top: 15px;
+      color: #000;
+}
+#sill{
+    margin-top: 50px;
+    /* border: 2px solid black; */
+}

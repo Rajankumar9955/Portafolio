@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#what{
+    height: 60vh;
+background-color: rgb(56, 75, 65);
+}
+#cani #hat{
+    color: rgb(197, 74, 34);
+}
+#cani h4{
+    color: aliceblue;
+}
+#cani{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cani #hat{
+    font-size: 25px;
+}
+#hat{
+    margin-top: 10px;
+   margin-left: -55px;
+   margin-bottom: 10px;
+}
+#imagess{
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#imagess img{
+    background-color: black;
+    border-radius: 20px;
+}
