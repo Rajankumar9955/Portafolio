@@ -90,7 +90,7 @@ html{
         font-size: 40px;
         display: block;
         position: relative;
-        left:-10px;
+        left:0px;
         top: 5px;
         padding: 20px;
         color: red;
@@ -130,10 +130,10 @@ html{
     }
     #input1:checked~ #navbar .last{
         margin-top: 20px;
-        margin-left: 470px;
+        margin-left: 460px;
     }
 }
-@media(max-width:768px){
+@media(max-width:769px){
  #navbar{
     overflow-x: hidden;
     width:100%;
@@ -159,14 +159,15 @@ html{
         height:45px;
         width:100px;
         font-size: 15px;
-        margin-left:25px;
+        margin-left:-130px;
        
     }
 }
-@media(max-width:425px)
+@media(max-width:426px)
 {
     #navbar{
         overflow-x: hidden; 
+        width: 100%;
     }
     #navbar{
         position: sticky;
@@ -189,19 +190,41 @@ html{
         font-size:9px;
         color: aquamarine;
     }
-    .last ul button{
-        height:50px;
-        width:70px;
-        font-size: 10px;
-        margin-left: 5px;
+     .last ul button{
+        height:45px;
+        width:100px;
+        font-size: 15px;
+        margin-left:-300px;
+        /* border: 8px solid black; */
        
     }
     
 }
-@media(max-width:320px){
+@media(max-width:376px){
+
+    #navbar{
+        overflow-x: hidden;
+        width: 100%;
+    }
+ .last ul button{
+        height:50px;
+        width:70px;
+        font-size: 10px;
+        margin-left:-315px;
+       
+    }
+}
+@media(max-width:321px){
     #navbar{
         overflow-x: hidden; 
         width: 100%;
+    }
+     .last ul button{
+        height:50px;
+        /* width:70px; */
+        font-size: 10px;
+        margin-left:-340px;
+       
     }
     
  }
@@ -307,7 +330,7 @@ html{
 .imgtag a i:hover{
     background-color: rgb(228, 159, 73);
 }
-@media(max-width:1040px){
+@media(max-width:1041px){
     #Hero{
        
          width: 100%;
@@ -339,7 +362,7 @@ html{
         
     }
 }
-@media(max-width:768px){
+@media(max-width:769px){
     #Hero{
    overflow-x: hidden;
     width: 100%;
@@ -374,7 +397,7 @@ html{
 
 }
 
-@media(max-width : 425px){
+@media(max-width : 426px){
     #Hero{
         overflow-x: hidden;
         display: block;
@@ -404,7 +427,28 @@ html{
 }
 
 }
-@media(max-width:320px)
+@media(max-width:376px)
+{
+    #Hero{
+         width: 100%;
+         height: 400px;
+         overflow-x: hidden;
+        
+    }
+    #Hero .maan{
+    height: 55vh;
+    width: 100%;
+   /* border: 2px solid white; */
+    margin-left:30px;
+
+
+  
+
+    
+}
+
+} 
+ @media(max-width:321px)
 {
     #Hero{
         overflow-x: hidden;
@@ -416,10 +460,10 @@ html{
     height: 55vh;
     width:100%;
     /* border: 2px solid black; */
-    margin-right: 220px;
+    margin-left: -220px;
     margin-bottom:60px;
     margin-top:60px;
-    margin-left:30px;
+    margin-left:35px;
 }
 #name p{
     font-size: 50px;
@@ -428,7 +472,7 @@ html{
 }
 
     
-}
+} 
 
 /* ===========================end hero section====================== */
 
@@ -491,7 +535,14 @@ html{
     margin-left: 20px;
     margin-bottom: -200px;
 }
-@media(max-width:768px){
+@media(max-width:1041px){
+    #about{
+        width: 100%;
+        height: 110vh;
+    }
+}
+
+@media(max-width:769px){
  #about{
     
     width:100%;
@@ -518,8 +569,7 @@ html{
     }
 
 }
-
-@media(max-width : 425px){
+@media(max-width : 426px){
     #about{
         overflow-x: hidden;
         height: 100vh;
@@ -545,7 +595,7 @@ html{
         background-position:center;
         background-size: cover;
         margin-top: 40px;
-        margin-left: 60px;
+        margin-left:55px;
         
     }
     .picture{
@@ -555,16 +605,62 @@ html{
         justify-content:center;
         align-items: center;
         height: 600px;
-        width: 400px;
+        width: 385px;
         border: 2px solid rgb(244, 233, 233);
         background-color: rgb(41, 28, 28);
         border-radius: 30px;   
-       margin-left: 12px;
+       margin-left:20px;
        margin-top: 40px;
     }
 
 }
-@media(max-width:320px){
+
+@media(max-width :376px){
+    #about{
+        overflow-x: hidden;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        background-color: rgb(42, 34, 34);
+        overflow-x: hidden;
+        height: fit-content;
+        
+        /* justify-content:space-evenly; */
+        /* align-items:center; */
+        
+    }
+    .about{
+        height:400px;
+        width: 300px;
+        border: 10px solid whitesmoke;
+        border-radius: 30px;
+        background: url(./IMG20220222194938-removebg-preview.png);
+        background-repeat: no-repeat;
+        align-items: center;
+        justify-content: center;
+        background-position:center;
+        background-size: cover;
+        margin-top: 40px;
+        margin-left:30px;
+        
+    }
+    .picture{
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        justify-content:center;
+        align-items: center;
+        height: 600px;
+        width: 385px;
+        border: 2px solid rgb(244, 233, 233);
+        background-color: rgb(41, 28, 28);
+        border-radius: 30px;   
+       margin-left:-8px;
+       margin-top: 40px;
+    }
+
+}
+@media(max-width:321px){
     #about{
         overflow-x: hidden;
         height: 100vh;
@@ -592,6 +688,7 @@ html{
         border: 2px solid rgb(244, 233, 233);
         background-color: rgb(41, 28, 28);
         border-radius: 30px;  
+        margin-left: 10px;
         /* overflow: hidden; */
        
     }
@@ -623,7 +720,16 @@ html{
     /* border: 2px solid rgb(166, 153, 153); */
     
 } 
-@media(max-width:768px){
+@media(max-width:1041px){
+    #marque{
+        align-items: center;
+        /* height: 200px;   */
+        width: 100%;
+        overflow-x: hidden;
+       
+    }
+}
+@media(max-width:769px){
     #marque{
    
     width:100%;
@@ -631,7 +737,16 @@ html{
    
 }
 }
-@media(max-width:320px)
+@media(max-width:426px){
+    #marque{
+        align-items: center;
+        /* height: 200px;   */
+        width: 100%;
+        overflow-x: hidden;
+       
+    }
+}
+@media(max-width:321px)
 {
     #marque{
         align-items: center;
@@ -641,24 +756,8 @@ html{
        
     }
 }
-@media(max-width:1040px){
-    #marque{
-        align-items: center;
-        /* height: 200px;   */
-        width: 100%;
-        overflow-x: hidden;
-       
-    }
-}
-@media(max-width:425px){
-    #marque{
-        align-items: center;
-        /* height: 200px;   */
-        width: 100%;
-        overflow-x: hidden;
-       
-    }
-}
+
+
 
 
 /* ===================start skills section===================== */
@@ -773,8 +872,66 @@ html{
     font-size: 25px;
     margin-top:25px;
     /* border: 2px solid black; */
+
 }
-@media(max-width:768px){
+@media(max-width:1041px)
+{
+    #skills
+    {
+     overflow-x: hidden;
+     display:flex;
+     width:100% ;
+     overflow-x: hidden;
+    
+    
+    
+    }
+   #list1{
+    margin-left: 20px;
+   }
+    #list1 p{
+        color: white;
+        width:230px;
+        margin-left:20px;
+        margin-top: 15px;
+        /* border: 2px solid black; */
+        
+        
+    }
+     #progress{
+        width:58%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: -40px;
+    
+    }
+   .lang{
+    /* border: 2px solid black; */
+    margin-top: -78px;
+    margin-left:-70px;
+    height: 200px;
+   }
+    .lang p{
+        margin-left:120px;
+    }
+    .personal{
+        margin-top: -50px;
+    }
+    .personal p{
+        margin-left:30px;
+        font-size: 25px;
+        margin-top:10px;
+        /* margin-bottom: 255px; */
+        color: #f6f3f3;
+        /* border: 2px solid black; */
+  }
+
+
+
+} 
+@media(max-width:769px){
     #skills{
     overflow-x: hidden;
     display:flex;
@@ -801,6 +958,23 @@ html{
         margin-left: -40px;
     
     }
+    .lang{
+        /* border: 2px solid black; */
+        margin-top: -78px;
+        margin-left:-100px;
+        height: 200px;
+       }
+      #list1{
+        margin-left: 20px;
+    }
+     #list1 progress
+    {
+     width: 200px; 
+
+    }
+    #language progress{
+        width: 200px;
+    }
     
     .personal p{
         margin-left:30px;
@@ -816,11 +990,9 @@ html{
 } 
 
 
-
-
-@media(max-width:425px){
-    .skills{
-        display: flex;
+@media(max-width:426px){
+    #skills{
+        display:block;
         height:580px;
         width: 100%;
         color: rgb(29, 25, 25);
@@ -837,8 +1009,98 @@ html{
         /* border: 2px solid black; */
         height: 500px;
         width: 350px;
+        margin-left:-10px;
+        margin-top: 30px;
+        
+     
+     } 
+     #list1 p{
+        color: white;
+        width:230px;
+        margin-left:110px;
+        margin-top: 15px;
+        font-size: 25px;
+        
+    }
+    #progress{
+        width:100%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 75px;
+    
+    }
+    
+    .lang{
+       margin-top: 10px;
+        height: 302px;
+        width: 350px;
         margin-left:10px;
         margin-top: 20px;
+    }
+    #language{
+       
+        margin-left:65px;
+        margin-top:35px;
+        width:300px;  
+        height:230px;
+        /* border: 2px solid black; */
+    }
+    .lang p{
+        width: 150px;
+        font-size: 25px;
+        margin-left:130px;
+        margin-top: 15px;
+        color: #dae1e2e4;
+        
+    }
+    .personal{
+        margin-left:20px;
+        margin-top:-260px;
+        width:100%;  
+        height:220px;
+        /* border:2px solid black; */
+    
+    }
+    .personal p{
+        margin-left:80px;
+        font-size: 25px;
+        margin-top: 285px;
+        color: #f6f3f3;
+        /* border: 2px solid black; */
+  }
+  #sill{
+    /* border: 2px solid black; */
+    margin-left:120px ;
+    font-size: 20px;
+    margin-top:15px;
+    height: 200px;
+    /* margin-left: 10px; */
+    
+}
+}
+@media(max-width:376px){
+    #skills{
+        display:block;
+        height:580px;
+        width: 100%;
+        color: rgb(29, 25, 25);
+        background-color: rgb(29, 32, 31);
+        height: fit-content;
+        overflow-x: hidden;
+        
+        
+        
+    }
+    #list1{
+        display: block;
+        margin-top: 10px;
+        /* border: 2px solid black; */
+        height: 500px;
+        width: 350px;
+        margin-left:-30px;
+        margin-top: 30px;
         
      
      } 
@@ -864,7 +1126,7 @@ html{
        margin-top: 10px;
         height: 302px;
         width: 350px;
-        margin-left:30px;
+        margin-left:-20px;
         margin-top: 20px;
     }
     #language{
@@ -876,19 +1138,16 @@ html{
         /* border: 2px solid black; */
     }
     
-   
-
-    }
     .lang p{
         width: 150px;
         font-size: 25px;
-        margin-left:110px;
+        margin-left:130px;
         margin-top: 15px;
         color: #dae1e2e4;
         
     }
     .personal{
-        margin-left:65px;
+        margin-left:40px;
         margin-top:-260px;
         width:300px;  
         height:220px;
@@ -911,7 +1170,8 @@ html{
     /* margin-left: 10px; */
     
 }
-@media(max-width:320px){
+}
+@media(max-width:321px){
     #skills{
    
         display:block;
@@ -936,7 +1196,7 @@ html{
             color: white;
             align-items: center;
             justify-content: center;
-            margin-left:50px ;
+            margin-left:80px ;
             margin-top: 25px;
             font-size: 25px;
             color: blue;
@@ -950,10 +1210,13 @@ html{
         display: block;
         /* flex-direction: column; */
         margin-top: 20px;
-        margin-left:-50px;
+        margin-left:50px;
     }
+    /* .lang{
+       
+    } */
     .lang p{
-        margin-left: 60px;
+        margin-left: 110px;
         color: blue;
     }
     #language{
@@ -961,18 +1224,18 @@ html{
         margin-left: 35px;
         margin-top:35px;
         /* border: 2px solid black; */
-        height: 500px;
-        width:100%;  
+        height: 600px;
+        width:150px;  
         height:350px;
-        margin-left: -40px;
+        margin-left: 40px;
     }
     .personal p{
-        margin-left: -20px;
+        margin-left: 20px;
         color: blue;
     }
     #sill{
         
-        margin-left:-10px ;
+        margin-left:35px ;
         font-size: 25px;
         margin-top:20px;
         /* border: 2px solid black; */
@@ -1030,7 +1293,7 @@ background-color: rgb(56, 75, 65);
     border-radius: 20px;
 
 }
-@media(max-width:768px){
+@media(max-width:769px){
     #what{
     overflow-x: hidden;
     width:100%;
@@ -1055,30 +1318,62 @@ background-color: rgb(56, 75, 65);
     }
 
 
+    @media(max-width:426px){
+        #what{
+            overflow-x: hidden;
+            height: fit-content;
+            overflow-x: hidden;
+        }
+        #imagess{
+            display: block;
+            height: 900px;
+            width: 100%;
+            margin-left: 80px;
+            background-repeat: no-repeat;
+            /* overflow-y: hidden; */
+            
+        
+        }
+    
+        #imagess img{
+            padding: 10px;
+            width: 300px;
+            margin-left: -40px;
+        }
+        
+        
+        
+        
+    }
 
-
-@media(max-width:425px){
+@media(max-width:376px){
     #what{
         overflow-x: hidden;
         height: fit-content;
+        overflow-x: hidden;
     }
     #imagess{
         display: block;
-        width: 320px;
+        height: 900px;
+        width: 100%;
         margin-left: 60px;
+        background-repeat: no-repeat;
+        /* overflow-y: hidden; */
         
     
     }
 
     #imagess img{
         padding: 10px;
+        width: 300px;
+        margin-left: -40px;
     }
     
     
     
     
 }
-@media(max-width:320px){
+@media(max-width:321px){
     #cani #hat{
         margin-left: -4px;
     }
@@ -1171,7 +1466,7 @@ background-color: rgb(56, 75, 65);
     height:500px;
     width: 100%;
 }
-@media(max-width:768px){
+@media(max-width:769px){
     #location{
         overflow-x: hidden;
         width:100%;
@@ -1181,7 +1476,7 @@ background-color: rgb(56, 75, 65);
         width: 100%;
     }
 }
-@media(max-width:425px){
+@media(max-width:426px){
     #location{
         overflow-x: hidden;
         height: 200px;
@@ -1193,7 +1488,19 @@ background-color: rgb(56, 75, 65);
         width: 100%;
     }
 }
-@media(max-width:320px){
+@media(max-width:376px){
+    #location{
+        overflow-x: hidden;
+        height: 200px;
+        width: 100%px;
+        
+    }
+    #location iframe{
+        height:500px;
+        width: 100%;
+    }
+}
+@media(max-width:321px){
     #location{
         overflow-x: hidden;
         height: 200px;
@@ -1299,7 +1606,7 @@ background-color: rgb(56, 75, 65);
     background-color: white;
     color: black;
 }
-@media(max-width:768px){
+@media(max-width:769px){
     #contact{
     overflow-x: hidden;
     overflow-y: hidden;
@@ -1352,7 +1659,7 @@ background-color: rgb(56, 75, 65);
         
    }
 }
-@media(max-width:425px){
+@media(max-width:426px){
     #contact{
         overflow-x: hidden;
         display: block;
@@ -1366,7 +1673,7 @@ background-color: rgb(56, 75, 65);
         height: 400px;
         width: 350px;
         margin-top: 30px;
-        margin-left: 30px;
+        margin-left:50px;
      }
      #_cont{
         margin-left: 80px;
@@ -1374,10 +1681,62 @@ background-color: rgb(56, 75, 65);
      }
      #form_input{
         height: 500px;
-        width: 400px;
+        width: 430px;
         background-color: white;
         margin-top: -55px;
-        margin-left:14px;
+        margin-left:0px;
+        border: 2px solid black;
+    }
+    #form_form{
+        height:400px;
+        width:320px;
+        
+        
+    }
+    #form_form input{
+        height:70px;
+        width:350px;
+        margin-left: -10px;
+    }
+    #form_form textarea{
+        width:350px;
+        margin-left: -10px;
+    }
+    #form_form button{
+        width:350px;
+        margin-top: 15px;
+        margin-left: -10px;
+        
+   }
+    
+
+}
+@media(max-width:376px){
+    #contact{
+        overflow-x: hidden;
+        display: block;
+        height: 300px;
+        height: fit-content;
+        /* border: 2px solid black; */
+     }
+     #input_type{
+        /* border: 2px solid black; */
+        overflow-x:hidden;
+        height: 400px;
+        width: 350px;
+        margin-top: 30px;
+        margin-left:30px;
+     }
+     #_cont{
+        margin-left: 80px;
+        
+     }
+     #form_input{
+        height: 500px;
+        width: 380px;
+        background-color: white;
+        margin-top: -55px;
+        margin-left:1px;
         border: 2px solid black;
     }
     #form_form{
@@ -1389,19 +1748,22 @@ background-color: rgb(56, 75, 65);
     #form_form input{
         height:70px;
         width:305px;
+        margin-left: -10px;
     }
     #form_form textarea{
         width:305px;
+        margin-left: -10px;
     }
     #form_form button{
         width:305px;
         margin-top: 15px;
+        margin-left: -10px;
         
    }
     
 
 }
-@media(max-width:320px){
+@media(max-width:321px){
     #input_type{
         /* border: 2px solid black; */
         height: 400px;
@@ -1588,7 +1950,15 @@ background-color: rgb(56, 75, 65);
 #terms a{
     color: #f6f3f3;
 }
-@media(max-width:768px){
+@media(max-width:1041px){
+    #social-mediia{
+        margin-left: 355px;
+    }
+    #MADE{
+        margin-left: 450px;
+    }
+}
+@media(max-width:769px){
     #footer{
         overflow-x: hidden;
         overflow-y: hidden;
@@ -1613,38 +1983,42 @@ background-color: rgb(56, 75, 65);
     margin-bottom: 20px;
 }
 }
-
-@media(max-width:425px){
+@media(max-width:426px){
     #footer{
         height: 590px;
+        width: 100%;
         overflow-x: hidden;
         height: fit-content;
     }
     #div1{
         display: block;
-        margin-left:10px;
+        margin-left:20px;
 
     }
+   
     
     #connect{
-    margin-top: -200px;
+    margin-top: -207px;
     height: 170px;
     /* border: 2px solid black; */
     width: 200px;
-    margin-left:230px;
+    margin-left:210px;
  }
+ 
+
  #support{
-    margin-top: -200px;
+    margin-top: -207px;
     height: 170px;
     /* border: 2px solid black; */
     width: 200px;
-    margin-left:230px;
+    margin-left:210px;
  }
  #social-mediia{
    
     /* border: 2px solid black; */
     margin-top: 10px;
-    margin-left:18px;
+    margin-left:20px;
+    
 
 }
  #terms{
@@ -1658,10 +2032,60 @@ background-color: rgb(56, 75, 65);
 
 
 }
-@media(max-width:320px)
+@media(max-width:376px){
+    #footer{
+        height: 590px;
+        width: 100%;
+        overflow-x: hidden;
+        height: fit-content;
+    }
+    #div1{
+        display: block;
+        margin-left:4px;
+
+    }
+   
+    
+    #connect{
+    margin-top: -207px;
+    height: 170px;
+    /* border: 2px solid black; */
+    width: 200px;
+    margin-left:194px;
+ }
+ 
+
+ #support{
+    margin-top: -207px;
+    height: 170px;
+    /* border: 2px solid black; */
+    width: 200px;
+    margin-left:190px;
+ }
+ #social-mediia{
+   
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    margin-left:-5px;
+    
+
+}
+ #terms{
+   margin-bottom: 30px;
+    margin-left: 25px;
+} 
+#MADE{
+    margin-left:100px;
+    margin-bottom: 20px;
+}
+
+
+}
+@media(max-width:321px)
 {
     #div1{
         height: 520px;
+        margin-left: 12px;
     }
     #Traffic{
         /* border: 2px solid black; */
@@ -1692,7 +2116,7 @@ background-color: rgb(56, 75, 65);
    }
    #social-mediia a{
       margin-right:-2px;
-      margin-left:-0px;
+      margin-left:8px;
       /* border: 2px solid rgb(208, 23, 23); */
       font-size: 12px;
       margin-bottom: -20px;
@@ -1703,6 +2127,7 @@ background-color: rgb(56, 75, 65);
    }
    #terms{
     /* border: 2px solid white; */
+    margin-left: 10px;
     margin-top: -5px;
     padding: 10px;
    }
@@ -1713,5 +2138,4 @@ background-color: rgb(56, 75, 65);
     margin-left: 70px;
     /* border: 2px solid black; */
    }
-
 }
